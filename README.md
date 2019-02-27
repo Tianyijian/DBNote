@@ -1,2 +1,3 @@
-# DBNote
-DataBase System Note
+# 介绍
+数据库系统学习笔记
+
