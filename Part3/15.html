@@ -523,10 +523,40 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="15-&#x5173;&#x7CFB;&#x6A21;&#x5F0F;&#x8BBE;&#x8BA1;&#x4E4B;&#x89C4;&#x8303;&#x5F62;&#x5F0F;">15. &#x5173;&#x7CFB;&#x6A21;&#x5F0F;&#x8BBE;&#x8BA1;&#x4E4B;&#x89C4;&#x8303;&#x5F62;&#x5F0F;</h1>
-<h2 id="&#x5173;&#x7CFB;&#x7684;&#x7B2C;&#x4E00;nf&#x548C;&#x7B2C;&#x4E8C;nf">&#x5173;&#x7CFB;&#x7684;&#x7B2C;&#x4E00;NF&#x548C;&#x7B2C;&#x4E8C;NF</h2>
-<h2 id="&#x5173;&#x7CFB;&#x7684;&#x7B2C;3nf&#x548C;boyce-codd-nf">&#x5173;&#x7CFB;&#x7684;&#x7B2C;3NF&#x548C;Boyce-Codd NF</h2>
-<h2 id="&#x591A;&#x503C;&#x4F9D;&#x8D56;&#x53CA;&#x5176;&#x516C;&#x7406;&#x5B9A;&#x7406;">&#x591A;&#x503C;&#x4F9D;&#x8D56;&#x53CA;&#x5176;&#x516C;&#x7406;&#x5B9A;&#x7406;</h2>
-<h2 id="&#x5173;&#x7CFB;&#x7684;&#x7B2C;4nf">&#x5173;&#x7CFB;&#x7684;&#x7B2C;4NF</h2>
+<p>&#x91CD;&#x70B9;&#x4E0E;&#x96BE;&#x70B9;</p>
+<ul>
+<li>&#x4E00;&#x7EC4;&#x6982;&#x5FF5;&#xFF1A;1NF, 2NF, 3NF, BCNF, 4NF&#xFF1B;&#x591A;&#x503C;&#x4F9D;&#x8D56;</li>
+<li>&#x719F;&#x7EC3;&#x5E94;&#x7528;&#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1;&#x7684;&#x89C4;&#x8303;&#x5316;&#x5F62;&#x5F0F;&#xFF0C;&#x5224;&#x65AD;&#x6570;&#x636E;&#x5E93;&#x8BBE;&#x8BA1;&#x7684;&#x6B63;&#x786E;&#x6027;&#x53CA;&#x53EF;&#x80FD;&#x5B58;&#x5728;&#x7684;&#x95EE;&#x9898;</li>
+</ul>
+<h2 id="151-&#x5173;&#x7CFB;&#x7684;&#x7B2C;&#x4E00;nf&#x548C;&#x7B2C;&#x4E8C;nf">15.1 &#x5173;&#x7CFB;&#x7684;&#x7B2C;&#x4E00;NF&#x548C;&#x7B2C;&#x4E8C;NF</h2>
+<ul>
+<li>1NF&#xFF1A;&#x5173;&#x7CFB;&#x7684;&#x6BCF;&#x4E2A;&#x5206;&#x91CF;&#x90FD;&#x662F;&#x539F;&#x5B50;&#x4E0D;&#x53EF;&#x5206;&#x7684;(&#x4E0D;&#x5B58;&#x5728;&#x590D;&#x5408;&#x5C5E;&#x6027;&#x3001;&#x591A;&#x503C;&#x5C5E;&#x6027;)</li>
+<li>2NF&#xFF1A;&#x5C5E;&#x4E8E;1NF&#xFF0C;&#x4E14;&#x6BCF;&#x4E2A;&#x975E;&#x4E3B;&#x5C5E;&#x6027;&#x5B8C;&#x5168;&#x51FD;&#x6570;&#x4F9D;&#x8D56;&#x4E8E;&#x5019;&#x9009;&#x952E;</li>
+<li>&#x7B2C;&#x4E8C;&#x8303;&#x5F0F;&#x6D88;&#x9664;&#x4E86;&#x975E;&#x4E3B;&#x5C5E;&#x6027;&#x5BF9;&#x5019;&#x9009;&#x952E;&#x7684;&#x90E8;&#x5206;&#x4F9D;&#x8D56;</li>
+</ul>
+<h2 id="152-&#x5173;&#x7CFB;&#x7684;&#x7B2C;3nf&#x548C;boyce-codd-nf">15.2 &#x5173;&#x7CFB;&#x7684;&#x7B2C;3NF&#x548C;Boyce-Codd NF</h2>
+<ul>
+<li>3NF&#xFF1A;&#x5C5E;&#x4E8E;2NF&#xFF0C;&#x65E0;&#x4F20;&#x9012;&#x51FD;&#x6570;&#x4F9D;&#x8D56;</li>
+<li>&#x5173;&#x7CFB;&#x6A21;&#x5F0F;&#x8BBE;&#x8BA1;&#x5982;&#x6EE1;&#x8DB3;&#x7B2C;3&#x8303;&#x5F0F;&#xFF0C;&#x5219;&#x4E00;&#x5B9A;&#x80FD;&#x6EE1;&#x8DB3;&#x7B2C;2&#x8303;&#x5F0F;&#xFF1B;&#x53CD;&#x4E4B;&#x5219;&#x4E0D;&#x7136;&#x3002;</li>
+<li>BCNF&#xFF1A;&#x5C5E;&#x4E8E;1NF&#xFF0C;&#x6BCF;&#x4E2A;&#x51FD;&#x6570;&#x4F9D;&#x8D56;&#x5305;&#x542B;&#x5019;&#x9009;&#x952E;</li>
+<li>&#x6EE1;&#x8DB3;BCNF&#xFF0C;&#x4E00;&#x5B9A;&#x6EE1;&#x8DB3;3NF&#x3002;&#x4E0D;&#x6EE1;&#x8DB3;3NF&#xFF0C;&#x4E00;&#x5B9A;&#x4E0D;&#x6EE1;&#x8DB3;BCNF</li>
+</ul>
+<h2 id="153-&#x591A;&#x503C;&#x4F9D;&#x8D56;&#x53CA;&#x5176;&#x516C;&#x7406;&#x5B9A;&#x7406;">15.3 &#x591A;&#x503C;&#x4F9D;&#x8D56;&#x53CA;&#x5176;&#x516C;&#x7406;&#x5B9A;&#x7406;</h2>
+<ul>
+<li>&#x591A;&#x503C;&#x4F9D;&#x8D56;</li>
+<li>4NF&#xFF1A;&#x5C5E;&#x4E8E;1NF&#xFF0C;&#x591A;&#x503C;&#x4F9D;&#x8D56;&#x4E5F;&#x5305;&#x542B;&#x5019;&#x9009;&#x952E;</li>
+<li>&#x82E5;&#x6EE1;&#x8DB3;4NF&#xFF0C;&#x5219;&#x5FC5;&#x6EE1;&#x8DB3;BCNF&#x3002;&#x82E5;R&#x4E0A;&#x4EC5;&#x6709;&#x51FD;&#x6570;&#x4F9D;&#x8D56;&#xFF0C;&#x5219;BCNF&#x4E0E;4NF&#x76F8;&#x540C;&#x3002;</li>
+</ul>
+<h2 id="154-&#x4E60;&#x9898;">15.4 &#x4E60;&#x9898;</h2>
+<ul>
+<li>&#x5173;&#x7CFB;&#x6570;&#x636E;&#x5E93;&#x89C4;&#x8303;&#x5316;&#x662F;&#x4E3A;&#x4E86;&#x89E3;&#x51B3;&#x5173;&#x7CFB;&#x6570;&#x636E;&#x5E93;&#x4E2D;<strong>&#x63D2;&#x5165;&#x95EE;&#x9898;&#x3001;&#x5220;&#x9664;&#x95EE;&#x9898;&#x548C;&#x6570;&#x636E;&#x5197;&#x4F59;</strong>&#x7684;&#x95EE;&#x9898;&#x800C;&#x5F15;&#x5165;&#x7684;</li>
+<li>&#x5728;&#x5173;&#x7CFB;&#x6A21;&#x5F0F;R(U&#xFF0C;F)&#x4E2D;&#xFF0C;&#x5982;&#x679C;F&#x662F;&#x6700;&#x5C0F;&#x51FD;&#x6570;&#x4F9D;&#x8D56;&#x96C6;&#xFF0C;&#x5219;<strong>R&#x7684;&#x89C4;&#x8303;&#x5316;&#x7A0B;&#x5EA6;&#x4E0E;F&#x662F;&#x5426;&#x6700;&#x5C0F;&#x51FD;&#x6570;&#x4F9D;&#x8D56;&#x96C6;&#x65E0;&#x5173;</strong></li>
+<li>&#x5173;&#x7CFB;&#x6A21;&#x5F0F;&#xFF1A;&#x90AE;&#x7F16;(&#x57CE;&#x5E02;, &#x8857;&#x9053;, &#x90AE;&#x653F;&#x7F16;&#x7801;)&#x6EE1;&#x8DB3;<strong>&#x7B2C;3&#x8303;&#x5F0F;</strong></li>
+<li>&#x5BF9;&#x8FDE;&#x9501;&#x5546;&#x5E97;&#x7684;&#x7BA1;&#x7406;&#xFF0C;&#x8BBE;&#x8BA1;&#x4E86;&#x5173;&#x7CFB;&#x6A21;&#x5F0F;&#xFF1A;&#x5546;&#x5E97;(&#x5546;&#x5E97;, &#x5546;&#x54C1;&#x90E8;, &#x5546;&#x54C1;&#xFF0C;&#x5546;&#x54C1;&#x90E8;&#x7ECF;&#x7406;)&#xFF0C;<strong>&#x6EE1;&#x8DB3;&#x7B2C;2&#x8303;&#x5F0F;&#x4F46;&#x4E0D;&#x6EE1;&#x8DB3;&#x7B2C;3&#x8303;&#x5F0F;</strong></li>
+<li>&#x5BF9;&#x56FE;&#x4E66;&#x7BA1;&#x7406;&#xFF0C;&#x5DF2;&#x77E5;&#x4E00;&#x79CD;&#x56FE;&#x4E66;&#x53EA;&#x80FD;&#x653E;&#x5728;&#x4E00;&#x4E2A;&#x623F;&#x95F4;&#xFF0C;&#x53EF;&#x653E;&#x7F6E;&#x5728;&#x591A;&#x4E2A;&#x4E66;&#x67B6;&#xFF0C;&#x4E00;&#x4E2A;&#x4E66;&#x67B6;&#x53EF;&#x653E;&#x7F6E;&#x591A;&#x672C;&#x56FE;&#x4E66;&#xFF0C;&#x4E00;&#x4E2A;&#x623F;&#x95F4;&#x6709;&#x591A;&#x4E2A;&#x4E66;&#x67B6;&#xFF0C;&#x4E00;&#x4E2A;&#x623F;&#x95F4;&#x6709;&#x4E00;&#x4E2A;&#x7BA1;&#x7406;&#x5458;&#xFF0C;&#x8BF7;&#x5206;&#x6790;&#x5173;&#x7CFB;&#x6A21;&#x5F0F;&#xFF1A;&#x56FE;&#x4E66;(&#x4E66;&#x53F7;, &#x4E66;&#x540D;, &#x51FA;&#x7248;&#x65E5;&#x671F;, &#x51FA;&#x7248;&#x793E;, &#x623F;&#x95F4;&#x53F7;, &#x4E66;&#x67B6;&#x53F7;, &#x7BA1;&#x7406;&#x5458;)&#xFF0C;<strong>&#x4E0D;&#x6EE1;&#x8DB3;&#x7B2C;2&#x8303;&#x5F0F;</strong>&#xFF0C;&#x4E66;&#x53F7;&#x548C;&#x4E66;&#x67B6;&#x662F;&#x5019;&#x9009;&#x952E;</li>
+<li>&#x5DF2;&#x77E5;&#x5173;&#x7CFB;&#x6A21;&#x5F0F;R&#xFF08;A&#xFF0C;B&#xFF0C;C&#xFF09;&#xFF0C;&#x51FD;&#x6570;&#x4F9D;&#x8D56;&#x96C6;F={B-&gt;C, B-&gt;A&#xFF0C;A-&gt;BC},<strong>R&#x6EE1;&#x8DB3;Boyce-Codd&#x8303;&#x5F0F;</strong></li>
+<li>&#x5728;R&#xFF08;XY&#xFF09;&#x4E2D;&#xFF0C;&#x5982;&#x679C;X&#x2192;Y&#xFF0C;&#x5E76;&#x4E14;&#x5BF9;&#x4E8E;X&#x7684;&#x67D0;&#x4E00;&#x4E2A;&#x771F;&#x5B50;&#x96C6;X&#x2019;&#xFF0C;&#x6709;X&#x2019;&#x2192;Y&#xFF0C;&#x5219;<strong>X&#x4E3A;&#x5173;&#x7CFB;R&#x7684;&#x8D85;&#x7801;</strong>,&#x5019;&#x9009;&#x7801;&#x9700;&#x8981;&#x552F;&#x4E00;&#x6027;&#x548C;&#x6700;&#x5C0F;&#x6027;&#xFF0C;&#x8D85;&#x7801;&#x4E0D;&#x9700;&#x8981;&#x6700;&#x5C0F;&#x6027;</li>
+</ul>
 
                                 
                                 </section>
@@ -570,7 +600,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"15. 关系模式设计之规范形式","level":"1.4.5","depth":2,"next":{"title":"16. 模式分解存在什么问题","level":"1.4.6","depth":2,"path":"Part3/16.md","ref":"Part3/16.md","articles":[]},"previous":{"title":"14. 函数依赖及其公理定理","level":"1.4.4","depth":2,"path":"Part3/14.md","ref":"Part3/14.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Part3/15.md","mtime":"2019-04-03T00:22:56.731Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-05-26T16:07:12.557Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"15. 关系模式设计之规范形式","level":"1.4.5","depth":2,"next":{"title":"16. 模式分解存在什么问题","level":"1.4.6","depth":2,"path":"Part3/16.md","ref":"Part3/16.md","articles":[]},"previous":{"title":"14. 函数依赖及其公理定理","level":"1.4.4","depth":2,"path":"Part3/14.md","ref":"Part3/14.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Part3/15.md","mtime":"2019-05-28T11:58:39.606Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-05-28T11:59:09.649Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
